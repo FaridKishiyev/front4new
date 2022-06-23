@@ -1,0 +1,38 @@
+#slider{
+    .sl-text{
+        margin-bottom: 20%;
+        color: whitesmoke;
+        p{
+            font-size: 70px;
+            font-weight: 700;
+        }
+        .desc{
+            font-size: 20px;
+        }
+    }
+    img {
+        filter: brightness(80%);
+    }
+    .buttons{
+        padding-top: 70px;
+        a{
+            text-decoration: none;
+            font-size: 30px;
+            padding: 10px 20px;
+            color: whitesmoke;
+            border-radius: 5px;
+        }
+        a:first-child{
+            background-color: #ED6436;
+        }
+        a:last-child{
+            background-color: #65C178;
+        }
+    }
+    .sld-btn{
+        background-color: #ED6436;
+        filter: none;
+        padding: 15px;
+        border-radius: 5px;
+    }
+}
